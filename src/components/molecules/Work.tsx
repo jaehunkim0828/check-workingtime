@@ -1,10 +1,11 @@
 import React from 'react';
+
 import TimeCheck from './TimeCheck';
 
 function Work() {
   return (
     <div id='work'>
-      <div>Work</div>
+      <h1>Work</h1>
       <TimeCheck/>
     </div>
   )
