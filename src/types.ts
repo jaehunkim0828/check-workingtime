@@ -1,3 +1,3 @@
-export type Test = { test: string };
+export type ButtonT = { name: string, style: object | undefined, type: "button" | "submit" | "reset" | undefined};
 
-export type ButtonT ={ name: string };
+export type InputT = { value: string, onChange: any, placeholder: string, style: object | undefined };
