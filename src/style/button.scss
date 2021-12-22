@@ -1,0 +1,13 @@
+@import './color.scss';
+
+.button {
+  border: none;
+  background-color: $green-color;
+  color: $white-color;
+  box-shadow: 0 0 3px $white-color;
+  font-weight: bold;
+
+  &:hover {
+    background-color: $grey-color;
+  }
+}
