@@ -1,4 +1,8 @@
-.App {
-  text-align: center;
-  background-color: black;
+@import './color.scss';
+@import './main.scss';
+
+
+html {
+  height: 100vh;
+  background-color: $black-color;
 }
